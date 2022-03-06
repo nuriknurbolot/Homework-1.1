@@ -6,7 +6,7 @@ public class Main {
 	// Задание 1
         byte q = 44;
         short w = 129;
-        int e = -32769;
+        int p = -32769;
         long r = 1234L;
         float t = 0.25f;
         double y = 125.35;
@@ -15,10 +15,10 @@ public class Main {
         System.out.println(isAdult);
         System.out.println (symbol);
         //Задание 2
-        double a = 78.2;
-        double b =82.7;
-        System.out.println(a+b);//Общий вес боксёров
-        System.out.println(b-a);//Разница между весом бойцов
+        double k = 78.2;
+        double l =82.7;
+        System.out.println(k+l);//Общий вес боксёров
+        System.out.println(l-k);//Разница между весом бойцов
         //Задание 3
         double banans = 80;
         double milk = 105;
@@ -36,11 +36,11 @@ public class Main {
         int denis = 83690;
         int kristina = 76230;
         var m = maria * 0.1;// На сколько повысили
-        var d = denis * 0.1;
-        var  k = kristina * 0.1;
+        var den = denis * 0.1;
+        var kri = kristina * 0.1;
         var mariaFin = maria+m;// Их новая зарплата
-        var denisFin = denis+d;
-        var kristinaFin = kristina+k;
+        var denisFin = denis+den;
+        var kristinaFin = kristina+kri;
         var mariaLastYear = 67760 * 12;//Их прошлая годовая зарплата
         var denisLastYear = 83690 * 12;
         var kristinaLastYear = 76230 * 12;
@@ -53,6 +53,31 @@ public class Main {
         System.out.println("Маша теперь получает"+ mariaFin + "Годовой доход вырос на " + mariaDifference);
         System.out.println("Денис теперь получает"+ denisFin + "Годовой доход вырос на" + denisDifference);
         System.out.println("Кристина теперь получает"+  kristinaFin+ "Годовой доход вырос на" + kristinaDifference);
+
+        // Задача 6
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int result = a*(b+(c-d*e));
+        int answer = a*(b+(c-d*e)) * -1;
+        System.out.println(answer);
+        // Задача 7
+        int z = 7;
+        int x = 5;
+        z =  z + x;
+        x = z - x;
+        z = z - x;
+        System.out.println(x);
+        System.out.println(z);
+        // задание 8
+        int f = 256;
+        int g = 10;
+        System.out.println(f / g % g);
+
+
+
 
 
     }
